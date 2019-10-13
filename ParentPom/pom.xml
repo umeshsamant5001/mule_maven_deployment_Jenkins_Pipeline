@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>TestJenkinsPipelIne</groupId>
-	<artifactId>mule_maven_deployment_Jenkins_Pipeline</artifactId>
+	<artifactId>mule_maven_deployment_Jenkins_Pipeline_parentPom</artifactId>
 	<version>0.0.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Mule mule-maven-parent-pom Application</name>
