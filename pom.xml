@@ -11,9 +11,9 @@
 
 	<parent>
 		<groupId>TestJenkinsPipelIne</groupId>
-		<artifactId>mule-maven-parent-pom</artifactId>
+		<artifactId>mule_maven_deployment_Jenkins_Pipeline</artifactId>
 		<version>0.0.5-SNAPSHOT</version>
-		<relativePath>../mule-maven-parent-pom/pom.xml</relativePath>
+		<relativePath>../mule_maven_deployment_Jenkins_Pipeline/ParentPom//pom.xml</relativePath>
 	</parent>
 
 	<properties>
