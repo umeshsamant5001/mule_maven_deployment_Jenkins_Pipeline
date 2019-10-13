@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.javastreets</groupId>
-	<artifactId>mule-maven-parent-pom</artifactId>
+	<groupId>TestJenkinsPipelIne</groupId>
+	<artifactId>mule_maven_deployment_Jenkins_Pipeline</artifactId>
 	<version>0.0.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Mule mule-maven-parent-pom Application</name>
@@ -11,8 +11,8 @@
 
 	<developers>
 		<developer>
-			<name>Manik Magar</name>
-			<email>manik.magar@gmail.com</email>
+			<name>Umesh Samant</name>
+			<email>umeshsamant5001@gmail.com</email>
 			<organization>Home</organization>
 			<organizationUrl>https://javastreets.com</organizationUrl>
 		</developer>
@@ -20,10 +20,10 @@
 
 
 	<organization>
-		<name>JavaStreets.com</name>
+		<name>Home</name>
 		<url>https://javastreets.com</url>
 	</organization>
-	<url>https://github.com/manikmagar/mule-maven-parent-pom</url>
+	<url>https://github.com/umeshsamant5001/mule_maven_deployment_Jenkins_Pipeline</url>
 	<licenses>
 		<license>
 			<name>MIT License</name>
@@ -33,8 +33,8 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/manikmagar/mule-maven-parent-pom</url>
-		<connection>scm:git:git@github.com:manikmagar/mule-maven-parent-pom.git</connection>
+		<url>https://github.com/umeshsamant5001/mule_maven_deployment_Jenkins_Pipeline</url>
+		<connection>scm:git:git@github.com:umeshsamant5001/mule_maven_deployment_Jenkins_Pipeline</connection>
 		<developerConnection>scm:git:git@github.com:manikmagar/mule-maven-parent-pom.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
@@ -42,16 +42,16 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<mule.version>3.9.2</mule.version>
+		<mule.version>3.8.3</mule.version>
 		<mule.maven.version>2.3.3</mule.maven.version>
 		<licensePath>LICENSE.md</licensePath>
-		<mule.tools.version>1.7</mule.tools.version>
+		<mule.tools.version>6.2.2</mule.tools.version>
 		<!-- <mule.home>${MULE_HOME}</mule.home> -->
 		<anypoint.username>${env.ANYPOINT_USERNAME}</anypoint.username>
 		<anypoint.password>${env.ANYPOINT_PASSWORD}</anypoint.password>
 		<cloundhub.env>Sandbox</cloundhub.env>
 		<anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
-		<arm.target.name>local-392</arm.target.name>
+		<arm.target.name>local-383</arm.target.name>
 		<!-- One of: server, serverGroup, cluster -->
 		<arm.target.type>server</arm.target.type>
 		<arm.environment>Sandbox</arm.environment>
