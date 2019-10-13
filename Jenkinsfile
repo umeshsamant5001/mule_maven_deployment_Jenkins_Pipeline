@@ -1,8 +1,7 @@
 pipeline {
   agent any
   stages {
-   
-    stage('Deploy Standalone') {
+       stage('Deploy Standalone') {
       steps {
         sh 'mvn deploy -P standalone'
       }
