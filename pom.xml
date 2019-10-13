@@ -10,7 +10,7 @@
 	<name>Mule mule-maven-deployment-demo Application</name>
 
 	<parent>
-		<groupId>com.javastreets</groupId>
+		<groupId>TestJenkinsPipelIne</groupId>
 		<artifactId>mule-maven-parent-pom</artifactId>
 		<version>0.0.5-SNAPSHOT</version>
 		<relativePath>../mule-maven-parent-pom/pom.xml</relativePath>
