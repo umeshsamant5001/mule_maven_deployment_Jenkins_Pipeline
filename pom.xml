@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>TestJenkinsPipelIne</groupId>
+	<groupId>com.umesh</groupId>
 	<artifactId>mule_maven_deployment_Jenkins_Pipeline</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule</packaging>
 	<name>Mule mule-maven-deployment-demo Application</name>
 	<parent>
-		<groupId>TestJenkinsPipelIne</groupId>
+		<groupId>com.umesh</groupId>
 		<artifactId>mule-maven-parent-pom</artifactId>
 		<version>0.0.5-SNAPSHOT</version>
 		<relativePath>../mule-maven-parent-pom/pom.xml</relativePath>
