@@ -12,7 +12,7 @@
 		<groupId>com.umesh</groupId>
 		<artifactId>mule-maven-parent-pom</artifactId>
 		<version>0.0.5-SNAPSHOT</version>
-		<relativePath>./mule-maven-parent-pom/pom.xml</relativePath>
+		<relativePath>https://github.com/umeshsamant5001/mule-maven-parent-pom/pom.xml</relativePath>
 	</parent>
 
 	<properties>
